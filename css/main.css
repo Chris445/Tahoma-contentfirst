@@ -1,0 +1,62 @@
+html {
+  font: 100%/1.15 sans-serif;
+  }
+
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0%;
+  }
+
+  body {
+  font-family: "Tahoma"
+  margin: 0;
+  }
+
+@media (min-width: 60em) {
+
+  .no-wrap {
+    display: block;
+    }
+  }
+
+
+  .all-caps {
+  font: bold 15em/1.15 "Tahoma";
+  overflow: hidden;
+  letter-spacing: 0.05em;
+  word-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  }
+
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 15%;
+    font-size: 3em;
+    }
+
+/* ----showcase---- */
+
+  #showcase {
+    text-align: center;
+    font: 3em/1.15 sans-serif;
+    }
+
+  .italic {
+    font-style: italic;
+    }
+
+  .bold {
+    font-weight: bold;
+    }
+
+  /*
+.italic-bold {
+    font-style: italic;
+    font-weight bold;
+    }
+ */
