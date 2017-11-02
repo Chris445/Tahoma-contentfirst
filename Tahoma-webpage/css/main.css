@@ -2,17 +2,42 @@ html {
   font: 100%/1.15 sans-serif;
   }
 
+    .regular {
+    font-weight: normal;
+    }
 
-h1,
-h2,
+  .italic {
+    font-style: italic;
+    }
+
+  .bold {
+    font-weight: bold;
+
+    }
+
+h2 {
+    margin-bottom: 0em;
+
+    }
+
+
 h3 {
-  margin-top: 0;
-  margin-bottom: 0%;
+  overflow: hidden;
+  font: normal 2em/1.15 "Tahoma";
+  margin-top: 0em;
+  margin-bottom: 0em%;
+  text-align: center;
+
   }
+
+
+
 
   body {
   font-family: "Tahoma"
   margin: 0;
+
+
   }
 
 @media (min-width: 60em) {
@@ -23,36 +48,184 @@ h3 {
   }
 
 
-  .all-caps {
+  h1 {
   font: bold 15em/1.15 "Tahoma";
   overflow: hidden;
   letter-spacing: 0.05em;
   word-spacing: 0.05em;
   text-transform: uppercase;
   text-align: center;
-  }
+  color: #6699cc;
+  background:  #cccc99;
+  margin-left:-1em;
+  margin-right:-1em;
+  margin-top: -00.1em;
+   }
+
+
+   #about p {
+   margin-bottom: 2em;
+   font: normal 1.5em/1.15 "Tahoma";
+
+   }
+
+
+   #regular h2 {
+   letter-spacing: .25em;
+   color: #6699cc;
+  background:  #cccc99;
+   margin-top: 4em;
+  padding-bottom: 00.1em;
+   font:  2em/1.15 "Tahoma";
+
+
+   }
+
+   #italic h2 {
+   letter-spacing: .25em;
+    font: italic 2em/1.15 "Tahoma";
+    color: #6699cc;
+  background:  #cccc99;
+    padding-bottom: 00.1em;
+   }
+
+   #bold h2 {
+   letter-spacing: .25em;
+   color: #6699cc;
+  background:  #cccc99;
+    padding-bottom: 00.1em;
+   }
+
+
+
+#bold-italic h2 {
+
+letter-spacing: .25em;
+   color: #6699cc;
+  background:  #cccc99;
+    padding-bottom: 00.1em;
+
+}
+
+
+
+   #regularqbf {
+   margin-top: -3em;
+
+  font: 3em/1.15 "Tahoma";
+   }
+
+
+   #italicqbf {
+   margin-top: -3em;
+
+  font: italic 3em/1.15 "Tahoma";
+   }
+
+
+   #boldqbf {
+   margin-top: -3em;
+
+  font: bold 3em/1.15 "Tahoma";
+   }
+
+   #bolditalicqbf {
+   margin-top: -3em;
+
+  font: bold italic 3em/1.15 "Tahoma";
+   }
+
+
+   /*
+color: #6699cc;
+   background:  #cccc99;
+
+ */
+   }
+
+
+   /*
+body {
+   background: #66ccff
+   }
+
+ */
 
 
 .subtitle {
+
+    color: #6699cc;
+    letter-spacing: 0.10em;
+    word-spacing: 5em;
     text-align: center;
-    margin-bottom: 15%;
-    font-size: 3em;
+    margin-bottom: 12%;
+    margin-top: -3em;
+    font-size: 1.50em;
     }
+
+
+    #banner h2 {
+    font: bold 2em/1.50 "Tahoma";
+    overflow: hidden;
+    white-space: nowrap;
+    color: #6699cc;
+    letter-spacing: 0.10em;
+    word-spacing: 5em;
+    margin-bottom: 12%;
+    margin-top: -3em;
+
+    }
+
+
+
+
 
 /* ----showcase---- */
 
   #showcase {
     text-align: center;
-    font: 3em/1.15 sans-serif;
     }
 
-  .italic {
-    font-style: italic;
+  #showcase section {
+    padding: 1em 0;
     }
 
-  .bold {
-    font-weight: bold;
+  #showcase hr {
+    width: 50%;
+    height: 0;
+    border: 0;
+    border-top: 1px dashed #999;
+    margin: 0 auto;
     }
+
+  #showcase h2 {
+    font-size: 3em;
+    }
+
+  #showcase p {
+    font-size: 2em;
+    }
+
+    #subtitle h2 {
+    margin: 2em;
+
+    }
+
+
+#marginsides {
+margin-right: 3em;
+   margin-left: 3em;
+
+}
+
+
+/*
+    .bold-italic {
+  text-align: center;
+    font: 2em/1.15 sans-serif;
+    font-weight: italic, bold;
+    }
+ */
 
   /*
 .italic-bold {
@@ -60,3 +233,23 @@ h3 {
     font-weight bold;
     }
  */
+
+  #about h3{
+  font: bold 2.75em/1.50 "Tahoma";
+  text-align: center;
+  color:  #cccc99;
+
+  }
+
+  #about p {
+  text-align: center;
+  margin-right: 3em;
+   margin-left: 3em;
+  }
+
+
+
+
+  footer {
+  font-variant: small-caps;
+  }
