@@ -1,5 +1,7 @@
 html {
   font: 100%/1.15 sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   }
 
     .regular {
