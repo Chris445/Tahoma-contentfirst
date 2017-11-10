@@ -25,7 +25,7 @@ h2 {
 
 h3 {
   overflow: hidden;
-  font: normal 2em/1.15 "Tahoma";
+  font: normal 2em/1.15 "Tahoma", sans-serif;
   margin-top: 0em;
   margin-bottom: 0em%;
   text-align: center;
@@ -51,7 +51,7 @@ h3 {
 
 
   h1 {
-  font: bold 15em/1.15 "Tahoma";
+  font: bold 15em/1.15 "Tahoma", sans-serif;
   overflow: hidden;
   letter-spacing: 0.05em;
   word-spacing: 0.05em;
@@ -64,10 +64,23 @@ h3 {
   margin-top: -00.1em;
    }
 
+   /*
+#col {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+ */
+
+
+#abc {
+  font-size: 1.5em;
+
+}
 
    #about p {
    margin-bottom: 2em;
-   font: normal 1.5em/1.15 "Tahoma";
+   font: normal 1.5em/1.15 "Tahoma", sans-serif;
 
    }
 
@@ -78,14 +91,14 @@ h3 {
   background:  #cccc99;
    margin-top: 4em;
   padding-bottom: 00.1em;
-   font:  2em/1.15 "Tahoma";
+   font:  2em/1.15 "Tahoma", sans-serif;
 
 
    }
 
    #italic h2 {
    letter-spacing: .25em;
-    font: italic 2em/1.15 "Tahoma";
+    font: italic 2em/1.15 "Tahoma", sans-serif;
     color: #6699cc;
   background:  #cccc99;
     padding-bottom: 00.1em;
@@ -114,27 +127,27 @@ letter-spacing: .25em;
    #regularqbf {
    margin-top: -3em;
 
-  font: 3em/1.15 "Tahoma";
+  font: 3em/1.15 "Tahoma", sans-serif;
    }
 
 
    #italicqbf {
    margin-top: -3em;
 
-  font: italic 3em/1.15 "Tahoma";
+  font: italic 3em/1.15 "Tahoma", sans-serif;
    }
 
 
    #boldqbf {
    margin-top: -3em;
 
-  font: bold 3em/1.15 "Tahoma";
+  font: bold 3em/1.15 "Tahoma", sans-serif;
    }
 
    #bolditalicqbf {
    margin-top: -3em;
 
-  font: bold italic 3em/1.15 "Tahoma";
+  font: bold italic 3em/1.15 "Tahoma", sans-serif;
    }
 
 
@@ -167,7 +180,7 @@ body {
 
 
     #banner h2 {
-    font: bold 2em/1.50 "Tahoma";
+    font: bold 2em/1.50 "Tahoma", sans-serif;
     overflow: hidden;
     white-space: nowrap;
     color: #6699cc;
@@ -237,7 +250,7 @@ margin-right: 3em;
  */
 
   #about h3{
-  font: bold 2.75em/1.50 "Tahoma";
+  font: bold 2.75em/1.50 "Tahoma", sans-serif;
   text-align: center;
   color:  #cccc99;
 
