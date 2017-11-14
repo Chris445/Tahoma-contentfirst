@@ -36,7 +36,7 @@ h3 {
 
 
   body {
-  font-family: "Tahoma"
+  font-family: "Tahoma", sans-serif;
   margin: 0;
 
 
@@ -64,6 +64,7 @@ h3 {
   margin-top: -00.1em;
    }
 
+
    /*
 #col {
   -moz-column-count: 2;
@@ -79,11 +80,22 @@ h3 {
 }
 
    #about p {
+
    margin-bottom: 2em;
    font: normal 1.5em/1.15 "Tahoma", sans-serif;
 
    }
 
+#menu {
+color: #6699cc;
+font: normal 1.0em/1.15 "Tahoma", sans-serif;
+width: 90%;
+  max-width: 60em;
+  margin: 0 auto;
+  text-align: right;
+  padding-bottom:0.5em;
+
+}
 
    #regular h2 {
    letter-spacing: .25em;
@@ -179,7 +191,8 @@ body {
     }
 
 
-    #banner h2 {
+   /*
+ #banner h2 {
     font: bold 2em/1.50 "Tahoma", sans-serif;
     overflow: hidden;
     white-space: nowrap;
@@ -191,6 +204,7 @@ body {
 
     }
 
+ */
 
 
 
@@ -256,15 +270,40 @@ margin-right: 3em;
 
   }
 
-  #about p {
-  text-align: center;
-  margin-right: 3em;
-   margin-left: 3em;
+
+  /*
+.frsmework
+    width 90%
+    max-width 60em
+    margin 0 auto
+
+ Instead of adding more CSS, just add more to a class.
+
+ */
+
+  /*
+#about p {
+  margin: 0 auto;
+  width: 90%
+  max-width: 30em;
+min-width: 19em;
+  /* text-align: center; */
+  margin-right: 19em;
+   margin-left: 19em;
   }
+ */
 
 
 
 
   footer {
+  text-align: center;
   font-variant: small-caps;
   }
+
+
+.framework {
+  width: 90%;
+  max-width: 60em;
+  margin: 0 auto;
+}
